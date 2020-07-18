@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Minesweeper</name>
+    </assembly>
+    <members>
+        <member name="F:Minesweeper.About.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.About.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Minesweeper.About.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Minesweeper.ErrorMessageForm">
+            <summary>
+            Simple error popup that shows message and plays error sound.
+            </summary>
+        </member>
+        <member name="F:Minesweeper.ErrorMessageForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.ErrorMessageForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Minesweeper.ErrorMessageForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Minesweeper.GamePanel">
+            <summary>
+            Panel to contain game and board elements
+            </summary>
+        </member>
+        <member name="M:Minesweeper.GamePanel.ResizePanel(System.Int32,System.Int32)">
+            <summary>
+            Resizes window as needed
+            </summary>
+            <param name="xSize">width</param>
+            <param name="ySize">legth</param>
+        </member>
+        <member name="T:Minesweeper.CustomGameSize">
+            <summary>
+            Class used to store custom game size and mine count
+            </summary>
+        </member>
+        <member name="T:Minesweeper.Empty">
+            <summary>
+            Empty tile with no number
+            </summary>
+        </member>
+        <member name="T:Minesweeper.FlagCounter">
+            <summary>
+            Used to store number of flags
+            </summary>
+        </member>
+        <member name="M:Minesweeper.FlagCounter.AddRemoveFlag(System.Int32)">
+            <summary>
+            Changes number of flags and sets "areFlagsAvailable" flag. 
+            </summary>
+            <param name="change">1 to add flag and -1 to remove flag</param>
+        </member>
+        <member name="T:Minesweeper.CustomFieldCreatorForm">
+            <summary>
+            Form used to get custom game sizes.
+            </summary>
+        </member>
+        <member name="F:Minesweeper.CustomFieldCreatorForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.CustomFieldCreatorForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Minesweeper.CustomFieldCreatorForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Minesweeper.FlagCounterLabel">
+            <summary>
+            Used to display flag count
+            </summary>
+        </member>
+        <member name="T:Minesweeper.Game">
+            <summary>
+            Main game class
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Game.CreateGame(System.Int32)">
+            <summary>
+            Sets correct size and mine count when changing difficulty level.
+            Also used to set board for custom game.
+            </summary>
+            <param name="diffLevel">Choosed difficulty level.
+            0 is beginner
+            1 is advanced
+            2 is expert
+            3 is custom game mode</param>
+        </member>
+        <member name="M:Minesweeper.Game.CreateCustomGame">
+            <summary>
+            Opens window to set custom game size.
+            </summary>
+            <returns>Returns false when user cancels operation.
+            Returns true if user enters correct data and accept it.</returns>
+        </member>
+        <member name="M:Minesweeper.Game.ResetGame">
+            <summary>
+            Method resets current game. It sets flag "isGameReplayed" to true so it is not eligible for scoreboard.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Game.NewGame">
+            <summary>
+            Generates new game with the same difficulty level as previous.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Game.GameButtonAction">
+            <summary>
+            Action of button with yellow face.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Game.Win">
+            <summary>
+            Method is used after user wins the game.
+            It checks if game is eligible for scoreboard, if yes it shows correct window to fill user name.
+            If not it shows simple popup with time displayed.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Game.Lose">
+            <summary>
+            Method is used after user left clicks a bomb.
+            </summary>
+        </member>
+        <member name="T:Minesweeper.LastGame">
+            <summary>
+            Class used to load and save current difficulty level or board size.
+            Game sets last used board size and difficulty level on start.
+            </summary>
+        </member>
+        <member name="T:Minesweeper.LostPopUpForm">
+            <summary>
+            Simple popup after loss
+            </summary>
+        </member>
+        <member name="F:Minesweeper.LostPopUpForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.LostPopUpForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Minesweeper.LostPopUpForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Minesweeper.GameButton">
+            <summary>
+            Button with yellow face :)
+            </summary>
+        </member>
+        <member name="T:Minesweeper.Mine">
+            <summary>
+            Tile with mine
+            </summary>
+        </member>
+        <member name="T:Minesweeper.Board">
+            <summary>
+            Grid of tiles
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Board.GenerateBoard(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Generates new board.
+            </summary>
+            <param name="xSize">Width</param>
+            <param name="ySize">Length</param>
+            <param name="mineCount">Number of mines</param>
+        </member>
+        <member name="M:Minesweeper.Board.ClearTiles">
+            <summary>
+            Clears old buttons when creating new game
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Board.ResetBoard">
+            <summary>
+            Resets current board
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Board.CountAround(System.Int32,System.Int32)">
+            <summary>
+            Counts mines around tile. Used to generate non mine tiles.
+            </summary>
+            <param name="x">x coordinate</param>
+            <param name="y">y coordinate</param>
+            <returns>Numbers of mines around x,y tile</returns>
+        </member>
+        <member name="M:Minesweeper.Board.IsGameDone">
+            <summary>
+            Checks if all bombs are correctly marked and non-mine tiles uncovered
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Board.ShowAllMines">
+            <summary>
+            Shows all mines after lose
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Board.UncoverAround(Minesweeper.Tile)">
+            <summary>
+            Used to uncover all non - mine tiles around empty tile
+            </summary>
+            <param name="t">Empty tile</param>
+        </member>
+        <member name="T:Minesweeper.MinesweeperForm">
+            <summary>
+            Main window with tool strip menu
+            </summary>
+        </member>
+        <member name="F:Minesweeper.MinesweeperForm.components">
+            <summary>
+            Wymagana zmienna projektanta.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.MinesweeperForm.Dispose(System.Boolean)">
+            <summary>
+            Wyczyść wszystkie używane zasoby.
+            </summary>
+            <param name="disposing">prawda, jeżeli zarządzane zasoby powinny zostać zlikwidowane; Fałsz w przeciwnym wypadku.</param>
+        </member>
+        <member name="M:Minesweeper.MinesweeperForm.InitializeComponent">
+            <summary>
+            Metoda wymagana do obsługi projektanta — nie należy modyfikować
+            jej zawartości w edytorze kodu.
+            </summary>
+        </member>
+        <member name="T:Minesweeper.Number">
+            <summary>
+            Tile with number
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Program.Main">
+            <summary>
+            Minesweeper
+            Projekt z przedmiotu Programowanie Obiektowe
+            Michał Szczykowski 2020
+            </summary>
+        </member>
+        <member name="T:Minesweeper.ResetAreYouSureForm">
+            <summary>
+            Used to ask user if he is sure about resetting scoreboard
+            </summary>
+        </member>
+        <member name="F:Minesweeper.ResetAreYouSureForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.ResetAreYouSureForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Minesweeper.ResetAreYouSureForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Scoreboard.PickTable(System.Int32)">
+            <summary>
+            Used to access all arrays in loop.
+            </summary>
+            <param name="diffLevel">0 for beginner
+            1 for advanced
+            2 for expert</param>
+            <returns>Returns choosed array</returns>
+        </member>
+        <member name="M:Minesweeper.Scoreboard.Reset(System.Int32)">
+            <summary>
+            Resets choosed array.
+            </summary>
+            <param name="diffLevel">Used to pick array to reset</param>
+        </member>
+        <member name="T:Minesweeper.ScoreboardForm">
+            <summary>
+            Scoreboard gui.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.ScoreboardForm.ShowForm">
+            <summary>
+            Checks if scoreboard is available and displays scoreboard or error message accordingly.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.ScoreboardForm.dataGridViewEasy_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            Used to disable focus on data grid view, scoreboard entries shouldn't be focusable.
+            </summary>
+        </member>
+        <member name="F:Minesweeper.ScoreboardForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.ScoreboardForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Minesweeper.ScoreboardForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Minesweeper.StopwatchLabel">
+            <summary>
+            Used as timer display.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.Tile.MarkFlagOrQuestion(System.Boolean)">
+            <summary>
+            Marks tile with question mark, flag or clears all markings according to current tile state.
+            </summary>
+            <returns>Returns value of flags that should be added or deleted from flag count.</returns>
+        </member>
+        <member name="M:Minesweeper.Tile.Reset">
+            <summary>
+            Resets all tile parameters to default state. Used to restart current game.
+            </summary>
+        </member>
+        <member name="T:Minesweeper.Stopwatch">
+            <summary>
+            Counts current game time
+            </summary>
+        </member>
+        <member name="T:Minesweeper.TileButton">
+            <summary>
+            This class connects tiles logic with button interface.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.WinPopUpForm.#ctor(System.Int32,System.Boolean)">
+            <summary>
+            Form popups after game is won. It is used to get user name if time can be put on scoreboard.
+            Or if time is to long for scoreboard it shows simple message.
+            </summary>
+            <param name="time">Time to display on form</param>
+            <param name="isEligible">Sets window accordingly. If set to true window shows text box for name input.
+            If set to false is hides text box and show only ok button.</param>
+        </member>
+        <member name="F:Minesweeper.WinPopUpForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Minesweeper.WinPopUpForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Minesweeper.WinPopUpForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Minesweeper.Properties.Resources">
+            <summary>
+              Klasa zasobu wymagająca zdefiniowania typu do wyszukiwania zlokalizowanych ciągów itd.
+            </summary>
+        </member>
+        <member name="P:Minesweeper.Properties.Resources.ResourceManager">
+            <summary>
+            Zwraca buforowane wystąpienie ResourceManager używane przez tę klasę.
+            </summary>
+        </member>
+        <member name="P:Minesweeper.Properties.Resources.Culture">
+            <summary>
+              Przesłania właściwość CurrentUICulture bieżącego wątku dla wszystkich
+              przypadków przeszukiwania zasobów za pomocą tej klasy zasobów wymagającej zdefiniowania typu.
+            </summary>
+        </member>
+        <member name="P:Minesweeper.Properties.Resources.click">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Minesweeper.Properties.Resources.dead">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Minesweeper.Properties.Resources.flag">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Minesweeper.Properties.Resources.happy">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Minesweeper.Properties.Resources.mine">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Minesweeper.Properties.Resources.questionmark">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Minesweeper.Properties.Resources.win">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

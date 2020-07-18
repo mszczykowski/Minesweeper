@@ -1,0 +1,59 @@
+C:\Users\mszcz\source\repos\Minesweeper\Minesweeper\bin\Debug\Minesweeper.exe.config
+C:\Users\mszcz\source\repos\Minesweeper\Minesweeper\bin\Debug\Minesweeper.exe
+C:\Users\mszcz\source\repos\Minesweeper\Minesweeper\bin\Debug\Minesweeper.pdb
+C:\Users\mszcz\source\repos\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csprojAssemblyReference.cache
+C:\Users\mszcz\source\repos\Minesweeper\Minesweeper\obj\Debug\Minesweeper.MinesweeperForm.resources
+C:\Users\mszcz\source\repos\Minesweeper\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+C:\Users\mszcz\source\repos\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.cache
+C:\Users\mszcz\source\repos\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\mszcz\source\repos\Minesweeper\Minesweeper\obj\Debug\Minesweeper.exe
+C:\Users\mszcz\source\repos\Minesweeper\Minesweeper\obj\Debug\Minesweeper.pdb
+C:\Users\mszcz\source\repos\Minesweeper\Minesweeper\obj\Debug\Minesweeper.CustomFIeldCreator.resources
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\bin\Debug\Minesweeper.exe.config
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\bin\Debug\Minesweeper.exe
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\bin\Debug\Minesweeper.pdb
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.csprojAssemblyReference.cache
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.CustomFieldCreator.resources
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.MinesweeperForm.resources
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.cache
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.exe
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.pdb
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.WinPopUp.resources
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.LostPopUp.resources
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.About.resources
+D:\programowanie obiektowe\proejkt\backup\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.Scoreboard.resources
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.csprojAssemblyReference.cache
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.About.resources
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.MinesweeperForm.resources
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.cache
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.exe
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.pdb
+D:\Minesweeper0,9\Minesweeper\bin\Debug\Minesweeper.exe.config
+D:\Minesweeper0,9\Minesweeper\bin\Debug\Minesweeper.exe
+D:\Minesweeper0,9\Minesweeper\bin\Debug\Minesweeper.pdb
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.CustomFieldCreatorForm.resources
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.LostPopUpForm.resources
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.ScoreboardForm.resources
+D:\Minesweeper0,9\Minesweeper\obj\Debug\Minesweeper.WinPopUpForm.resources
+D:\Minesweeper1.0\Minesweeper\bin\Debug\Minesweeper.exe.config
+D:\Minesweeper1.0\Minesweeper\bin\Debug\Minesweeper.exe
+D:\Minesweeper1.0\Minesweeper\bin\Debug\Minesweeper.pdb
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.csprojAssemblyReference.cache
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.About.resources
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.CustomFieldCreatorForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.LostPopUpForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.MinesweeperForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.ScoreboardForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.WinPopUpForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.cache
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.exe
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.pdb
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.ResetAreYouSureForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Debug\Minesweeper.ErrorMessageForm.resources
+D:\Minesweeper1.0\Minesweeper\bin\Debug\Minesweeper.xml

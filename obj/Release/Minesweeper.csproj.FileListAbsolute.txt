@@ -1,0 +1,17 @@
+D:\Minesweeper1.0\Minesweeper\bin\Release\Minesweeper.exe.config
+D:\Minesweeper1.0\Minesweeper\bin\Release\Minesweeper.exe
+D:\Minesweeper1.0\Minesweeper\bin\Release\Minesweeper.pdb
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.About.resources
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.CustomFieldCreatorForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.ErrorMessageForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.LostPopUpForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.MinesweeperForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.Properties.Resources.resources
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.ResetAreYouSureForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.ScoreboardForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.WinPopUpForm.resources
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.csproj.GenerateResource.cache
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.csproj.CoreCompileInputs.cache
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.exe
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.pdb
+D:\Minesweeper1.0\Minesweeper\obj\Release\Minesweeper.csprojAssemblyReference.cache
